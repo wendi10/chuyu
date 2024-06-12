@@ -1,0 +1,244 @@
+.aboutUsContainer {
+    background: linear-gradient(200deg, #006fba, #fff);
+
+  .aboutUs {
+    display: flex;
+    width: 100%;
+
+    .left-section {
+      width: 50%;
+      // background-repeat:no-repeat;
+      // background-size:contain;
+      position: relative;
+      padding: 24px;
+      color: #fff;
+
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .title {
+          font-size: 48px;
+          color: #fff;
+        }
+
+        .subTitle {
+          font-size: 36px;
+          margin-bottom: 24px;
+        }
+      }
+    }
+
+    .right-section {
+      width: 50%;
+      padding: 24px;
+      color: #fff;
+
+      .title {
+        font-size: 36px;
+      }
+
+      .subTitle {
+        font-size: 24px;
+        margin-bottom: 24px;
+      }
+
+      .description {
+        font-size: 20px;
+        margin-bottom: 24px;
+        text-align: justify;
+      }
+    }
+  }
+
+  .aboutValue {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 36px;
+      background-color: rgba($color: #006fba, $alpha: 0.3);
+      padding: 24px;
+      width: 80%;
+      animation: fadeIn 5s;
+
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+      .text {
+        padding: 0 36px;
+        margin-bottom: 24px;
+        color: #fff;
+        font-weight: 600;
+      }
+
+      img {
+        width: 100%;
+        height: 300px;
+      }
+    }
+  }
+
+  .ourJourney {
+    padding: 24px;
+    position: relative;
+    height: 600px;
+
+    .title {
+      font-size: 48px;
+      color: black;
+      text-align: center;
+    }
+
+    .journey-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 36px;
+      background-color: rgba($color: #fff, $alpha: 0.3);
+      padding: 24px;
+      width: 80%;
+      color: black;
+    }
+
+    img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+
+  .reasonWhy {
+    padding: 24px;
+    position: relative;
+    height: 600px;
+
+    .title {
+      font-size: 48px;
+      color: black;
+      text-align: center;
+    }
+
+    .journey-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 36px;
+      background-color: rgba($color: #fff, $alpha: 0.3);
+      padding: 24px;
+      width: 80%;
+      color: black;
+    }
+
+    img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+}
+
+
+// .aboutUsContainer {
+//   .aboutUs {
+//     display: flex;
+//     width: 100%;
+
+//     .left-section {
+//       width: 50%;
+//       // background-repeat:no-repeat;
+//       // background-size:contain;
+//       position: relative;
+//       padding: 24px;
+//       color: #006fba;
+
+//       .content {
+//         position: absolute;
+//         top: 50%;
+//         left: 50%;
+//         transform: translate(-50%, -50%);
+
+//         .title {
+//           font-size: 48px;
+//           color: #006fba;
+//         }
+
+//         .subTitle {
+//           font-size: 36px;
+//           margin-bottom: 24px;
+//         }
+//       }
+//     }
+
+//     .right-section {
+//       width: 50%;
+//       padding: 24px;
+//       color: #006fba;
+
+//       .title {
+//         font-size: 36px;
+//       }
+
+//       .subTitle {
+//         font-size: 24px;
+//         margin-bottom: 24px;
+//       }
+
+//       .description {
+//         font-size: 20px;
+//         margin-bottom: 24px;
+//         text-align: justify;
+//       }
+//     }
+//   }
+
+//   .aboutValue {
+//     position: relative;
+//     width: 100%;
+//     color: #fff;
+//     height: 500px;
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+
+//     .content {
+//       position: absolute;
+//       top: 50%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//       border-radius: 36px;
+//       background-color: rgba($color: #006fba, $alpha: 0.7);
+//       padding: 24px;
+//       width: 80%;
+//       animation: fadeIn 5s;
+
+//       @keyframes fadeIn {
+//         0% { opacity: 0; }
+//         100% { opacity: 1; }
+//       }
+
+//       .text {
+//         padding: 0 36px;
+//         margin-bottom: 24px;
+//         color: #fff;
+//         font-weight: 600;
+//       }
+
+//       img {
+//         width: 100%;
+//         height: 300px;
+//       }
+//     }
+//   }
+// }

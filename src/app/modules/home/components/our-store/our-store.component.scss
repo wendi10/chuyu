@@ -1,0 +1,56 @@
+.ourStore {
+    margin: 12px 24px;
+    
+    .title {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .store-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 16px;
+        width: 1000px;
+        justify-content: space-between;
+
+        .store-card {
+            border: 2px solid #006FBA;
+            border-radius: 12px;
+            padding: 16px;
+            background-color: #fff;
+            color: black;
+            display: flex;
+
+            .img-container {
+                width: 150px;
+                height: 150px;
+                
+                img{
+                    border-radius: 10px;
+                }
+            }
+
+            .content {
+                margin-left: 12px;
+                .store-name {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                .store-desc {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
+
+                .icon {
+                    width: 20px;
+                    margin-right: 8px;
+                }
+            }
+        }
+
+        .w-48{
+            width: 48%;
+        }
+    }
+}

@@ -1,0 +1,138 @@
+<div class="aboutUsContainer">
+  <div class="aboutUs">
+    <div class="left-section">
+      <div class="content">
+        <div class="title">
+          {{ "about.title" | translate }}
+        </div>
+
+        <div class="subTitle">
+          {{ "about.subTitle" | translate }}
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="right-section">
+    <div class="description">
+      {{ "about.value" | translate }}
+    </div>
+
+    <swiper
+    [config]="config"
+    (swiper)="onSwiper($event)"
+    (slideChange)="onSlideChange($event)"
+    >
+    <ng-template swiperSlide><img src="https://placehold.co/1000x300"></ng-template>
+    <ng-template swiperSlide><img src="https://placehold.co/1000x300"></ng-template>
+    <ng-template swiperSlide><img src="https://placehold.co/1000x300"></ng-template>
+    <ng-template swiperSlide><img src="https://placehold.co/1000x300"></ng-template>
+    <ng-template swiperSlide><img src="https://placehold.co/1000x300"></ng-template>
+    <ng-template swiperSlide><img src="https://placehold.co/1000x300"></ng-template>
+    </swiper>
+  </div> -->
+    <div class="right-section">
+      <div class="description">
+        {{ "about.description" | translate }}
+      </div>
+    </div>
+  </div>
+
+  <div class="aboutValue">
+    <div class="content">
+      <div class="text">{{ "about.value" | translate }}</div>
+
+      <div>
+        <swiper
+          [config]="config"
+          (swiper)="onSwiper($event)"
+          (slideChange)="onSlideChange($event)"
+        >
+          <ng-template swiperSlide
+            ><img src="https://placehold.co/1000x300"
+          /></ng-template>
+          <ng-template swiperSlide
+            ><img src="https://placehold.co/1000x300"
+          /></ng-template>
+          <ng-template swiperSlide
+            ><img src="https://placehold.co/1000x300"
+          /></ng-template>
+          <ng-template swiperSlide
+            ><img src="https://placehold.co/1000x300"
+          /></ng-template>
+          <ng-template swiperSlide
+            ><img src="https://placehold.co/1000x300"
+          /></ng-template>
+          <ng-template swiperSlide
+            ><img src="https://placehold.co/1000x300"
+          /></ng-template>
+        </swiper>
+      </div>
+    </div>
+  </div>
+
+  <div class="ourJourney">
+    <div class="title">
+      {{ "story.title" | translate }}
+    </div>
+
+    <div class="journey-container">
+      <swiper
+        [config]="config"
+        (swiper)="onSwiper($event)"
+        (slideChange)="onSlideChange($event)"
+      >
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+      </swiper>
+    </div>
+  </div>
+
+  <div class="reasonWhy">
+    <div class="title">
+      {{ "reason.title" | translate }}
+    </div>
+
+    <div class="journey-container">
+      <swiper
+        [config]="configReason"
+        (swiper)="onSwiper($event)"
+        (slideChange)="onSlideChange($event)"
+      >
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/1000x300"
+        /></ng-template>
+      </swiper>
+    </div>
+  </div>
+</div>

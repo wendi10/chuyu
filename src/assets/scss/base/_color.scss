@@ -1,0 +1,31 @@
+$color-palette: (
+    // primaryColor
+    primary: #006FBA,
+
+    // secondaryColor;
+    secondary: #FFCF01,
+  
+);
+
+// shadowColor:
+$shadow-lighter: 0px 1px 6px rgba(196, 203, 214, 0.5);
+
+@function color($color){
+
+    @warn map-get($color-palette,$color);
+
+    @if map-has-key($color-palette,$color){
+        $color: map-get($color-palette,$color) !important;
+        @return $color
+    }
+
+    @warn "unknown color `#{$color}` in palette";
+    @return null;
+
+}
+
+@each $item, $color in $color-palette {
+    .color-#{$item} {
+        color: $color !important;
+    }
+}

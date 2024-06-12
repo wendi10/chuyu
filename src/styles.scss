@@ -1,1 +1,83 @@
-/* You can add global styles to this file, and also import other style files */
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$chuyu-primary: mat.define-palette(mat.$indigo-palette);
+$chuyu-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$chuyu-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$chuyu-theme: mat.define-light-theme((
+  color: (
+    primary: $chuyu-primary,
+    accent: $chuyu-accent,
+    warn: $chuyu-warn,
+  ),
+  typography: mat.define-typography-config(),
+  density: 0
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($chuyu-theme);
+
+@import './assets/scss/base/_base.scss';
+@import "~bootstrap/dist/css/bootstrap.css";
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+
+@font-face {
+    font-family: 'primary';
+    src: url('./assets/fonts/primary.ttf');
+}
+
+@font-face {
+    font-family: 'secondary';
+    src: url('./assets/fonts/secondary.ttf');
+}
+
+html{
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: #fff!important;
+    font-family: primary;
+    scroll-behavior: smooth;
+}
+
+.bg-color-primary {
+    background-color: #006FBA;
+}
+
+.bg-color-secondary {
+    background-color: #FFCF01;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

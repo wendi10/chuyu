@@ -1,0 +1,62 @@
+<div class="career">
+  <div class="title">
+    {{ "career.title" | translate }}
+  </div>
+
+  <div class="content">
+    <div class="w-50">
+      <div class="sub-title">
+        {{ "career.slogan" | translate }}
+      </div>
+      <div class="thought">
+        {{ "career.thought" | translate }}
+      </div>
+
+      <div *ngFor="let testi of 'career.testimony' | translate; let i = index" [class]="'testimony-' + i">
+        "{{testi}}"
+      </div>
+    </div>
+
+    <div class="w-50">
+      <img src="https://placehold.co/700x540" />
+      <img src="https://placehold.co/700x540" />
+    </div>
+  </div>
+
+  <div class="mission">
+      <div class="title color-primary">
+          {{'mission.title' | translate}}
+      </div>
+      <div class="description color-primary">
+        {{'mission.description' | translate}}
+      </div>
+      <div class="sub-title color-primary">
+        {{'mission.perksTitle' | translate}}
+      </div>
+
+      <swiper
+        [config]="perksConfig"
+        (swiper)="onSwiper($event)"
+        (slideChange)="onSlideChange($event)"
+      >
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/500x400"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/500x400"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/500x400"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/500x400"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/500x400"
+        /></ng-template>
+        <ng-template swiperSlide
+          ><img src="https://placehold.co/500x400"
+        /></ng-template>
+      </swiper>
+  </div>
+</div>

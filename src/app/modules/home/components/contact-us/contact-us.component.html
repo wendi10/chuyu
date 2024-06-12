@@ -1,0 +1,84 @@
+<div class="title">
+  {{ "contactUs.title" | translate }}
+</div>
+
+<div class="contactUs">
+  <div class="left-content w-50">
+    <div class="box-container">
+      <div class="sub-title">
+        {{ "contactUs.subTitle" | translate }}
+      </div>
+      <div class="description">
+        {{ "contactUs.description" | translate }}
+      </div>
+
+      <div class="info">
+        <img class="icon" src="assets/icons/contact-white.svg" />
+        {{ "contactUs.phoneNumber" | translate }}
+      </div>
+      <div class="info">
+        <img class="icon" src="assets/icons/mail-white.svg" />
+        {{ "contactUs.email" | translate }}
+      </div>
+      <div class="info">
+        <img class="icon" src="assets/icons/location-white.svg" />
+        {{ "contactUs.address" | translate }}
+      </div>
+    </div>
+  </div>
+
+  <div class="right-content w-50">
+    <form [formGroup]="formGroup">
+      <div>
+        <mat-label>{{ "contactUs.form.name" | translate }}</mat-label>
+      </div>
+      <mat-form-field class="w-100" appearance="outline">
+        <input
+          type="text"
+          matInput
+          formControlName="name"
+          placeholder="input {{ 'contactUs.form.name' | translate }}"
+        />
+        <mat-error>Must be filled!</mat-error>
+      </mat-form-field>
+
+      <div>
+        <mat-label>{{ "contactUs.form.email" | translate }}</mat-label>
+      </div>
+      <mat-form-field class="w-100" appearance="outline">
+        <input
+          type="email"
+          matNativeControl
+          formControlName="email"
+          placeholder="input {{ 'contactUs.form.email' | translate }}"
+        />
+        <mat-error *ngIf="formGroup.get('email')?.errors?.required">Must be filled!</mat-error>
+        <mat-error *ngIf="formGroup.get('email')?.errors?.email">Wrong email format!</mat-error>
+      </mat-form-field>
+
+      <div>
+        <mat-label>{{ "contactUs.form.phone" | translate }}</mat-label>
+      </div>
+      <mat-form-field class="w-100" appearance="outline">
+        <input
+          type="tel"
+          matNativeControl
+          OnlyNumber="true"
+          formControlName="phone"
+          placeholder="input {{ 'contactUs.form.phone' | translate }}"
+        />
+        <mat-error>Must be filled!</mat-error>
+      </mat-form-field>
+      
+      <div>
+        <mat-label>{{ "contactUs.form.message" | translate }}</mat-label>
+      </div>
+      <mat-form-field class="w-100" appearance="outline">
+        <textarea matInput formControlName="message" placeholder="input {{ 'contactUs.form.message' | translate }}"></textarea>
+        <mat-error>Must be filled!</mat-error>
+      </mat-form-field>
+    </form>
+
+    <button class="button" (click)="onSubmit()">SEND</button>
+  </div>
+</div>

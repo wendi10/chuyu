@@ -1,0 +1,47 @@
+$weights: 400, 500, 600, 700, 800;
+
+.sz-12 {
+	font-size: 12px;
+}
+
+.sz-14 {
+	font-size: 14px;
+}
+
+.sz-16 {
+	font-size: 16px;
+}
+
+.sz-18 {
+	font-size: 18px;
+}
+
+.sz-20 {
+	font-size: 20px;
+}
+
+.sz-24 {
+	font-size: 24px;
+}
+
+.sz-28 {
+	font-size: 28px;
+}
+
+.sz-36 {
+	font-size: 36px;
+}
+
+.sz-48 {
+	font-size: 48px;
+}
+
+@each $weight in $weights {
+    .font-#{$weight} {
+        font-weight: $weight !important;
+    }
+}
+
+h1,h2,h3,h4 {
+    margin: 0 !important;
+}

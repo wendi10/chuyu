@@ -1,0 +1,46 @@
+$margins: 4, 8, 12, 16, 20, 24, 32, 36, 40, 44, 48;
+$paddings: 0, 4, 8, 12, 16, 20, 24, 32, 36, 40;
+//.color-ffffff
+@each $margin in $margins {
+  .mt-#{$margin} {
+    margin-top: $margin + px !important;
+  }
+
+  .mb-#{$margin} {
+    margin-bottom: $margin + px !important;
+  }
+
+  .mr-#{$margin} {
+    margin-right: $margin + px !important;
+  }
+
+  .ml-#{$margin} {
+    margin-left: $margin + px !important;
+  }
+}
+
+@each $gap in $margins {
+    .gap-#{$gap} {
+        gap: $gap + px !important;
+    }
+}
+
+// padding-8-0-8-0
+@each $paddingtop in $paddings {
+  @each $paddingright in $paddings {
+    @each $paddingbottom in $paddings {
+      @each $paddingleft in $paddings {
+        .padding-#{$paddingtop}-#{$paddingright}-#{$paddingbottom}-#{$paddingleft} {
+          padding: #{$paddingtop +
+            px}
+            #{$paddingright +
+            px}
+            #{$paddingbottom +
+            px}
+            #{$paddingleft +
+            px};
+        }
+      }
+    }
+  }
+}

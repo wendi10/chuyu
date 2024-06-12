@@ -1,0 +1,24 @@
+<div class="ourStore">
+    <div class="title color-primary">
+        Our Store
+    </div>
+
+    <div class="store-container">
+        <div *ngFor="let outlet of 'outlets' | translate" class="store-card w-48">
+            <div class="img-container">
+                <img [src]="outlet.img"/>
+            </div>
+            <div class="content">
+                <div class="store-name color-primary">
+                    {{outlet.name}}
+                </div>
+                <div class="store-desc">
+                    <img class="icon" src="assets/icons/location.svg" />{{outlet.address}}. <a class="color-primary" href="{{outlet.googleMapUrl}}" target="_blank">See on Google Maps</a>
+                </div>
+                <div class="store-desc">
+                    <img class="icon" src="assets/icons/time.svg" />{{outlet.openTime}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

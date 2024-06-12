@@ -1,0 +1,64 @@
+.contactUs {
+    margin: 12px 24px;
+    display: flex;
+
+    .left-content {
+        padding: 12px;
+        color: #fff;
+        font-size: 14px;
+
+        .box-container {
+            background-color: #006FBA;
+            border-radius: 16px;
+            width: 100%;
+            padding: 24px;
+            height: max-content;
+            height: 520px;
+        }
+
+        .sub-title {
+            font-size: 28px;
+            margin-bottom: 16px
+        }
+
+        .description {
+            font-size: 16px;
+            margin-bottom: 16px
+        }
+
+        .info {
+            margin-bottom: 16px;
+        }
+        
+        .icon {
+            width: 24px;
+            margin-right: 12px;
+        }
+    }
+
+    .right-content {
+        padding: 24px;
+
+        .button {
+            background-color: #006FBA;
+            color: #fff;
+            width: 100%;
+            padding: 12px;
+            border: 0;
+            border-radius: 4px;
+            margin-top: 24px;
+        }
+
+        .button:hover {
+            background-color: #218acf;
+        }
+    }
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 32px;
+    color: #006FBA;
+}

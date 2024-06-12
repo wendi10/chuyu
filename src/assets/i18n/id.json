@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "about": "Tentang",
+    "menu": "Menu",
+    "event": "Acara",
+    "store": "Toko",
+    "career": "Karir",
+    "contact": "Hubungi Kami"
+  },
+  "outlets": [
+    {
+      "name": "Pakuwon Mall Solo Baru",
+      "address": "Pakuwon Mall Solo, Jl. Ir. Soekarno No.18 Lantai 2, Dusun II, Madegondo, Kec. Grogol, Kabupaten Sukoharjo, Jawa Tengah 57552",
+      "openTime": "10.00 - 22.00",
+      "googleMapUrl": "https://www.google.com/maps/place/Chuyu+Pakuwon+Mall+Solo+Baru/@-7.6009442,110.8120139,17z/data=!3m1!4b1!4m6!3m5!1s0x2e7a17620cb7ddf9:0x6c133f6a050cb878!8m2!3d-7.6009495!4d110.8145888!16s%2Fg%2F11vyhn_z8d?entry=ttu",
+      "onlineDeliveryLink": "url",
+      "img": "https://placehold.co/150x150"
+    },
+    {
+      "name": "Trans Studio Mall Makassar",
+      "address": "Trans Studio Mall, Lantai LG Island 06, Jl. Metro Tj. Bunga, Maccini Sombala, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 90231",
+      "openTime": "10.00 - 22.00",
+      "googleMapUrl": "https://www.google.com/maps/place/Chuyu+Trans+Studio+Mall+Makassar/@-5.1607731,119.3914697,17z/data=!3m1!4b1!4m6!3m5!1s0x2dbee3d616dbad2d:0xdcb8b7a1daf63ec0!8m2!3d-5.1607784!4d119.3940446!16s%2Fg%2F11rcpzsfrm?entry=ttu",
+      "onlineDeliveryLink": "url",
+      "img": "https://placehold.co/150x150"
+    },
+    {
+      "name": "Pakuwon Panakukkang Makassar",
+      "address": "Mall Panakkukang, Jl. Boulevard No.16B Lantai Dasar, Unit B1, Masale, Kec. Panakkukang, Kota Makassar, Sulawesi Selatan 90231",
+      "openTime": " 10.00 - 22.00",
+      "googleMapUrl": "https://www.google.com/maps/place/Chuyu+Mall+Panakkukang/@-5.1578658,119.4441246,17z/data=!3m1!5s0x2dbee2c16d9aea25:0xdf97788d3abfe007!4m16!1m9!3m8!1s0x2dbee3077333db39:0x8909e446a5a823e0!2sChuyu+Mall+Panakkukang!8m2!3d-5.1578711!4d119.4466995!9m1!1b1!16s%2Fg%2F11vr9myt6w!3m5!1s0x2dbee3077333db39:0x8909e446a5a823e0!8m2!3d-5.1578711!4d119.4466995!16s%2Fg%2F11vr9myt6w?entry=ttu",
+      "onlineDeliveryLink": "url",
+      "img": "https://placehold.co/150x150"
+    }
+  ],
+  "about": {
+    "title": "Our Story",
+    "subTitle": "#YourFeelGoodTreatsss",
+    "description": "Perjlanan Chuyu dimulai dari ketulusan hati kami di-dalam setiap sajian minuman. Terinspirasi dari sumber kebahagiaan murni, Chuyu menyediakan minuman yang mampu memberikan kegembiraan dan kebahagiaan tanpa henti di setiap tegukan. Komitmen kami adalah untuk selalu menyebarkan kegembiraan secara berkesinambungan dan membawa kebahagiaan melalui #YourFeelGoodTreats",
+    "value": "Sebagai sebuah brand, kami membuka jalan bagi orang untuk benar-benar dapat menikmati hidup melalui “Feel-Good” & “Treats”, dua konsep yang berbeda dipadukan menjadi satu nilai yang mampu membedakan kami dengan brand lainnya."
+  },
+  "story": {
+    "title": "About Our Journey"
+  },
+  "reason": {
+    "title": "Reasons Why Chuyunity Loves Chuyu"
+  },
+  "career": {
+    "title": "Karir",
+    "slogan": "Life @Chuyu",
+    "thought": "Pikiran dari Tim Kami",
+    "testimony": [
+      "Produk yang saya terima sangat berkualitas dan sesuai dengan deskripsi di website. Pengiriman juga cepat dan aman. Saya pasti akan kembali berbelanja di sini!",
+      "Pengalaman saya berbelanja di sini sangat menyenangkan. Semua prosesnya mudah dan efisien. Staf sangat ramah dan profesional. Saya sangat merekomendasikan!"
+    ]
+  },
+  "mission": {
+    "title": "Misi Kami",
+    "description": "Di Chuyu, kami berkomitmen penuh dalam menciptakan lingkungan kerja yang positif di seluruh hirarki, dengan menciptakan area kerja yang adil melalui dialog dan diskusi, dimana kita mendukung segala jenis opini sebagai bagian dari evaluasi bersama. Kami menghargai semangat, pengalaman dan potensi dari tim kami.",
+    "perksTitle": "Benefit menjadi bagian dari tim Chuyu",
+    "perks": [
+      "Promosi : Kami mendukung staff-staff di tim kami agar dapat terus mengembangkan kemampuan dan pengetahuan mereka agar bisa terus mengembangkan karir yang lebih baik.",
+      "Fair Work Ground Area : Kami percaya bahwa area kerja yang adalah hal yang harus ada agar dapat menjaga atmosifr positif di dalam tim.",
+      "Jaminan Kesehatan : Kami memberikan anda jaminan kesehatan ketenagakerjaan",
+      "Berpergian untuk bekerja : Eksplor kantor, outlet dan kota baru yang belum pernah Anda kunjungi!"
+    ]
+  },
+  "contactUs": {
+    "title": "Hubungi Kami",
+    "subTitle": "Get in touch with us",
+    "description": "Jangan ragu untuk menghubungi kami apabila Anda memiliki pertanyaan, tawaran kolaborasi dan marketing dengan cara mengisi formulir kontak, menelpon kami, mendatangi kantor kami, atau menghubungi kami melalui email di :",
+    "phoneNumber": "0821xxxxxxx",
+    "email": "test@gmail.com",
+    "address": "address",
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "phone": "Nomor Telepon",
+      "message": "Pesan"
+    }
+  }
+}

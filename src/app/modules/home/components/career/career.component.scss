@@ -1,0 +1,60 @@
+.career {
+    padding: 24px;
+    position: relative;
+    font-size: 24px;
+
+    .w-50 {
+        width: 50%;
+    }
+
+    .title {
+      font-size: 48px;
+      color: black;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .sub-title {
+        font-size: 36px;
+        color: black;
+    }
+    .thought {
+        font-size: 24px;
+        color: black;
+    }
+
+    .testimony-0 {
+        padding-top: 150px;
+        padding-bottom: 280px;
+    }
+
+    .testimony-1 {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    img{
+        width: 100%;
+        padding: 36px;
+    }
+
+    .mission {
+        padding: 0px 15%;
+        .title {
+            font-size: 48px;
+            text-align: center;
+        }
+        .sub-title {
+            font-size: 36px;
+            text-align: center;
+            margin: 12px 0;
+        }
+        .description {
+            font-size: 24px;
+            color: black;
+            text-align: center;
+        }
+    }
+  }
